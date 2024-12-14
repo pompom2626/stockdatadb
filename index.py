@@ -4,8 +4,8 @@ import numpy as np
 
 # MySQL 데이터베이스 연결 설정
 conn = MySQLdb.connect(
-    user="crawl_usr",
-    passwd="Test001",
+    user="",
+    passwd="",
     host="localhost",
     db="crawl_data",
     charset="utf8"
